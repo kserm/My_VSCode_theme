@@ -1,0 +1,21 @@
+{
+  "name": "mooselight",
+  "displayName": "MooseLight",
+  "description": "My variation of the light theme for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MooseLight",
+        "uiTheme": "vs",
+        "path": "./themes/MooseLight-color-theme.json"
+      }
+    ]
+  }
+}
